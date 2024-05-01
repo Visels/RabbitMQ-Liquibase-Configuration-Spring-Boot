@@ -15,5 +15,11 @@
         </createTable>
     </changeSet>
 
+    <changeSet id="add-email-column" author="elvis">
+        <addColumn tableName="sample">
+            <column name="sample_email" type="VARCHAR(255)"></column>
+        </addColumn>
+    </changeSet>
+
 
 </databaseChangeLog>
